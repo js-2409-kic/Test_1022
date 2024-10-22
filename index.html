@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="content">
-        <h1>テキストを入力して、PostmanでAPIリクエストを送信してください。</h1>
-        <p>アバターが常に表示されています。</p>
-    </div>
+    <h1>D-ID アバターにテキストをしゃべらせる</h1>
+    
+    <textarea id="inputText" placeholder="ここにテキストを入力してください"></textarea><br>
+    <button id="speakButton">しゃべる</button>
+    
+    <div id="response"></div>
 
     <script
         type="module"
